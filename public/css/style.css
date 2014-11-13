@@ -1,0 +1,301 @@
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.72222;
+    color: #34495e;
+    background-color: #222;
+}
+.panel {
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    margin-bottom: 10px;
+}
+.panel-body{
+    overflow-x: auto;
+}
+
+.lblhilight{
+    font-weight: bold;
+    color: #00ADFF;
+}
+
+body{
+    font-size: 14px;
+}
+a {
+    color: #838383;
+    text-decoration: none;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+a:hover,
+a:focus {
+    color: #34495e;
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+}
+a.active{
+    color: #000;
+}
+
+.sidebar{
+    position: fixed;
+    top: 67px;
+    width: 200px;
+}
+
+h1.logo{
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+
+.container {
+
+    width:100%;
+
+}
+.sidemenu {
+}
+.sidemenu ul{
+    list-style: none; 
+    padding:0px;
+}
+.sidemenu ul li span{
+    padding-right: 10px;
+    color: #999;
+}
+.sidemenu ul li{
+
+}
+.sidemenu ul li a{
+    color: #fff;
+    display: block;
+    padding: 10px 0px 10px 10px;
+}
+.sidemenu ul li a:hover ,.sidemenu ul li a:hover span{
+    background: #000;
+    color: #50A3C4;
+}
+.sidemenu ul li a.active,.sidemenu ul li a.active:hover,.sidemenu ul li a.active:hover span{
+    background: #0074a2;
+    position: relative;
+    color: #fff;
+}
+
+.sidemenu ul li a.active span{
+    color: #fff;
+}
+.sidemenu ul li a.active:after{
+    right: 0;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 8px;
+    top: 50%;
+    color: #fff;
+    margin-top: -8px;
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent #f0f0f0 transparent transparent;
+}
+
+.avatar{
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+.avatar img{
+    width: 30px;
+}
+.footer{
+    padding: 20px;
+    text-align: right;
+    font-size: 12px;
+    color: #BBBBBB;
+}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 3px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #CF1D1D;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.login-panel{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.box-grey{
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    line-height: 1.4;
+    text-align: center;
+    float: left;
+    padding: 20px 10px 20px 10px;
+    position: relative;
+    height: 120px;
+}
+
+.box-grey .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.box-grey  .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.box-grey:hover,.box-grey.active{
+    background: #1abc9c;
+    color: #eee;
+}
+.box-grey a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    background: #f0f0f0;
+    /* padding: 10px; */
+    margin-left: 200px;
+    margin-top: 66px;
+    padding-top: 15px;
+    min-height: 800px;
+}
+.menu{
+    height: 40px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    padding: 0px 20px 0px 20px;
+    background: #222;
+    height: 65px !important;
+}
+.ztop{
+    z-index: 500;
+}
+.zbot{
+    z-index: 10;
+}
+.navbar-nav{
+    margin-top: 8px;
+}
+.priviledge-total{
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    font-size: 18px;
+    color: green;
+}
+.priviledge-cardname{
+    text-align: center;
+    color: #00ECE3;
+}
+.select_service{
+    text-align: center;
+    height: 200px;
+    font-size: 18px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.select_service   a{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    padding: 20px;
+
+} 
+.select_service   a span{
+    display: block;
+}
+.select_service:hover , .select_service:hover a{
+    background: #34495E;
+    color: #fff;
+}
+
+.emptydata{
+    text-align: center;
+    margin-top:200px;
+    color: #A2A2A2;
+}
+
+.fillter{
+    text-align: center;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+.fillter a{
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+    position: absolute;
+}
+.engchar{
+    background: #58BBE9;
+    border-radius: 50%;
+}
+.thaichar{
+    background: #48A55E;
+    border-radius: 50%;
+}
+.fillter_slide{
+    background: #222;
+    margin-top: -22px !important;
+}
+.fillter_toggle{
+    margin-top: -22px !important;
+    margin: 0 auto;
+    width: 150px;
+    padding: 10px;
+    background: #222;
+    color: #E2E2E2;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 700px;
+}
+
+.fillter_toggle:hover{
+    color: #838383;
+}
+.notruecard_popup{
+    width: 620px;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 170px;
+    background: #FFF;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px #616161;
+    color: #f00;
+}
